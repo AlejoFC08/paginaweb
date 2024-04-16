@@ -202,7 +202,9 @@ nav a{
 }
 
 
-
+.justificado{
+    text-align: justify;
+}
 h1{font-size: 3.5em;}
 h2{font-size: 2.7em;}
 p{font-size: 1.25em;}
@@ -464,11 +466,12 @@ button {
     }
     #servicios h3{
 
-        font-size: 1.5em;
+        font-size: 1.6em;
         color: rgb(240, 239, 239);
     }
     #servicios p{
         display: none;
+        font-size: 1em;
     
     }
     #servicios ul{
@@ -796,30 +799,32 @@ button {
             
         #servicios p{
             display: block;
+            text-align: left;
             margin-top: 90px;
             margin-bottom: 30px;
         }
-        #servicios h2{
+        #servicios h3{
             margin-bottom: 25px;
             margin-top: 0px;
-            font-size: 4.9em;
+            font-size: 2.7em;
         }
-
-
-
-        #servicios ul{ 
-        list-style-type: circle;
-
-
-        }
-
         
+
+
+
+        #servicios li{ 
+        list-style: circle;
+
+
+        }
+
+      
            
         #servicios li{
                 display: block;
                 font-size: 1.2em;
                 text-align: left;
-                
+                margin-bottom: 10px;
 
             }
             
