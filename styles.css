@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 *{
     box-sizing: border-box;
+
+}
+html{
+    font-family: 'Montserrat', sans-serif;
 }
 
 body{
@@ -35,6 +41,7 @@ align-items: center;
 color: rgb(1, 1, 14);
 
 }
+
 
 
 .logo img{
@@ -202,13 +209,11 @@ nav a{
 }
 
 
-.justificado{
-    text-align: justify;
-}
+
 h1{font-size: 3.5em;}
 h2{font-size: 2.7em;}
 p{font-size: 1.25em;}
-ul{list-style: none;}
+
 
 
 .conteiner{
@@ -391,8 +396,14 @@ button {
         text-decoration: none;
     }
     .articles article li {
+        display: list-item;
         font-size: 1.1rem;
-        margin-bottom: 10px;
+        margin-bottom: 19px;
+        margin-left: 10px;
+    
+        
+
+    
 
     }
     
@@ -415,6 +426,8 @@ button {
     }
       
     .article-preview {
+        display: list-item;
+        list-style: none;
         padding: 1.5rem;
         background: white;
     }
@@ -471,15 +484,17 @@ button {
     }
     #servicios p{
         display: none;
-        font-size: 1em;
     
     }
     #servicios ul{
-        list-style-type: circle;
+        list-style-type: disc;
     }
     #servicios li{
-        display: none;
-        list-style-type: circle;
+
+    display: list-item;
+
+
+        
     }
     
     #servicios .carta{
@@ -700,6 +715,7 @@ button {
     .footerNav ul li a{
         color:rgb(238, 229, 229);
         margin: 8px;
+
         text-decoration: none;
         font-size: 0.9em;
         opacity: 0.7;
@@ -804,25 +820,20 @@ button {
             margin-bottom: 30px;
         }
         #servicios h3{
-            margin-bottom: 25px;
+            margin-bottom: 55px;
             margin-top: 0px;
-            font-size: 2.7em;
+            font-size: 2.2em;
         }
         
 
 
 
-        #servicios li{ 
-        list-style: circle;
-
-
-        }
-
       
            
         #servicios li{
-                display: block;
-                font-size: 1.2em;
+           
+                display: list-item;
+                font-size: 1em;
                 text-align: left;
                 margin-bottom: 10px;
 
