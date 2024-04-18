@@ -1053,9 +1053,15 @@ button {
         #servicios li{
             margin-top: 15px;
 
-            display: flex;
+            display: list-item;
         }
-        
+        #servicios ul{
+            margin-left: 10px;
+            margin-right: 10px;
+            display: list-item;
+
+
+          }
 
 
           }
@@ -1149,6 +1155,7 @@ button {
           #servicios ul{
             margin-left: 10px;
             margin-right: 10px;
+  
 
 
           }
