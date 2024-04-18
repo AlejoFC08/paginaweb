@@ -961,6 +961,7 @@ button {
           }
           #servicios li{
             display: none;
+            text-align: left;
           }
 
           @media (min-width:752px){
@@ -1161,9 +1162,9 @@ button {
           }
 
           #servicios li{
-            margin-left: 5px;
+        
             margin-right: 5px;
-            text-align: center;
+
 
             display: list-item;
           }
