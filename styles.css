@@ -223,6 +223,7 @@ p{font-size: 1.25em;}
 }
 
 #hero{
+    font-family:  ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -245,6 +246,7 @@ background-position: center center;
 #hero h1{
     color: white;
     font-size: 3.4em;
+font-family: none;;
 
 }
 @media (max-width:400px){
