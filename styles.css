@@ -1133,13 +1133,15 @@ button {
                   align-items: flex-start;
                   gap: 1rem;
                   margin-top: 3em;
+                  margin-bottom: 190px
                 }
               details {
 
 
-                  margin: auto;
+                  margin: ;
+                  margin-bottom: 90px;
 
-                  margin-bottom: 10px;
+                  
 
           
                   font-size: 1rem;
