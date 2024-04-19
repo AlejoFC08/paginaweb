@@ -816,8 +816,9 @@ button {
         #servicios{
             background-color:#697073 ;
             text-align: center;
-            min-height: 650px;
-            margin-bottom: em;
+            height: auto;
+
+            margin-bottom: 13em;
             display: flex;
             flex-wrap: wrap;
 
@@ -1006,8 +1007,12 @@ button {
         
 
          #servicios{
-                min-height: 1050px;
+
                 margin-bottom: 30px;
+                margin-top: 0;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
             }
             #servicios br{
                 display:list-item
@@ -1015,11 +1020,14 @@ button {
           
             .faq-container {
 
+
+
                   display: flex;
                   justify-content: center;
 
 
-                  align-items: flex-start;
+                  align-items:center
+                  ;
                   gap: 1rem;
                   margin-top: 3em;
                 }
@@ -1027,6 +1035,7 @@ button {
 
                   margin: auto;
                   margin-bottom: 10px;
+
 
           
                   font-size: 1rem;
@@ -1049,7 +1058,7 @@ button {
                 text-align: center;
                 align-items: center;
                 font-size: 1.6em;
-                margin-top: 10px;
+
                 margin-bottom: 10px;
               color: #ffffff;
               width: 90%;
@@ -1112,7 +1121,7 @@ button {
 
 
             #servicios{
-                height: 700px;
+
                 margin-bottom: 30px;
             }
           
@@ -1130,12 +1139,12 @@ button {
 
 
                   margin: auto;
-                  margin-top: 50px;
+
                   margin-bottom: 10px;
 
           
                   font-size: 1rem;
-                  margin: 0 0;
+                  margin: 0 auto;
                   
                   background: #F6FAFF;
                   border-radius: 0.5rem;
@@ -1154,6 +1163,7 @@ button {
               .faq-title {
                   font-size: 2.4em;
                   margin-top: 0;
+
                   margin-bottom: 20px;
                 color: #ffffff;
                 width: 90%;
