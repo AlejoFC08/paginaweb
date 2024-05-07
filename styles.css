@@ -565,9 +565,10 @@ button {
 
 
 
-
-
-
+      .mi-icono {
+        transform: rotate(90deg); /* Cambia el ángulo según lo desees */
+    }
+    
 
 
 
@@ -1138,7 +1139,7 @@ button {
               details {
 
 
-                  margin: ;
+                  
                   margin-bottom: 90px;
 
                   
